@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Tafelschrift';
-	src: url('Tafelschrift.ttf');
+	src: url('../font/Tafelschrift.ttf');
 }
 
 #canvas-bg {
@@ -11,7 +11,7 @@
 }
 
 .index-body {
-	background: url('repeatbg.jpg') repeat center;
+	background: url('../images/repeatbg.jpg') repeat center;
 	margin: 0;
 	height: 100vh;
 	width: 100vw;
@@ -22,7 +22,7 @@
 
 .index-body-main {
 	align-items: flex-start;
-	background: url('brian-suman.jpg') no-repeat center center/ cover;
+	background: url('../images/brian-suman.jpg') no-repeat center center/ cover;
 	outline: 10px solid hsla(0,0%,100%,0.1);
 	display: flex;
 	justify-content: flex-start;
@@ -79,7 +79,7 @@
 /*--contact page-------------------*/
 
 .contact-body {
-	background: url('repeatbg.jpg') repeat center;
+	background: url('../images/repeatbg.jpg') repeat center;
 	height: 100vh;
 	width: 100vw;
 	color: rgba(191, 191, 191, 0.7);
@@ -89,7 +89,7 @@
 /*--about page---------------------*/
 
 .about-body {
-	background: url('repeatbg.jpg') repeat center;
+	background: url('../images/repeatbg.jpg') repeat center;
 	height: 100vh;
 	width: 100vw;
 	color: rgba(191, 191, 191, 0.7);
